@@ -4,9 +4,9 @@ include __DIR__.'/vendor/autoload.php';
 
 use Discord\DiscordCommandClient;
 
-
+$token = 'Njk4NDI0ODc3MjA3NjUwMzQ0.XpGXmg.u56s6f4kq5m30Gok8W65kBvxSBs';
 $discord = new DiscordCommandClient([
-    'token' => 'Njk4NDI0ODc3MjA3NjUwMzQ0.XpFqvQ.3veuKf8Axljs5RhShzmh0OOWBWY',
+    'token' => $token,
     'prefix' => '#',
     'name' => 'COV19D',
     'description' => 'The latest information about COVID19 | Contact : eggyaprilianto@gmail.com',

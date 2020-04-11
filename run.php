@@ -4,7 +4,7 @@ include __DIR__.'/vendor/autoload.php';
 
 use Discord\DiscordCommandClient;
 
-$token = 'Njk4NDI0ODc3MjA3NjUwMzQ0.XpGZcQ.NhlLkr3juhQh8Y4wVQswxi22fG0';
+$token = 'Njk4NDI0ODc3MjA3NjUwMzQ0.XpGadQ.7V64GDabo7uCSpEvvgsGWWM6tHA';
 $discord = new DiscordCommandClient([
     'token' => $token,
     'prefix' => '#',

@@ -1,0 +1,13 @@
+{
+    "name": "telury/covid19-bot",
+    "description": "Dapatkan berita kasus covid19 terupdate melalui Discord.",
+    "authors": [
+        {
+            "name": "Eggy Aplrnt",
+            "email": "pennywise.txt@gmail.com"
+        }
+    ],
+    "require": {
+        "team-reflex/discord-php": "^4.0"
+    }
+}

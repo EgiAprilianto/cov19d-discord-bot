@@ -3,7 +3,6 @@
 include __DIR__.'/vendor/autoload.php';
 
 use Discord\DiscordCommandClient;
-use Discord\Parts\User\Game;
 
 $token = 'Njk4NDI0ODc3MjA3NjUwMzQ0.XpGadQ.7V64GDabo7uCSpEvvgsGWWM6tHA';
 $discord = new DiscordCommandClient([
@@ -12,11 +11,6 @@ $discord = new DiscordCommandClient([
     'name' => 'COV19D',
     'description' => 'The latest information about COVID19 | Contact : eggyaprilianto@gmail.com',
 ]);
-$game = $discord->factory(Game::class, [
-    'name' => 'i am playing a game!',
-]);
-
-$discord->updatePresence($game);
 
 $discord->on('ready', function ($discord) {
     echo "Bot is ready.", PHP_EOL;

@@ -2,6 +2,9 @@
 
 include __DIR__.'/vendor/autoload.php';
 
+date_default_timezone_set('Asia/Jakarta');
+
+
 use Discord\DiscordCommandClient;
 
 $token = 'Njk4NDI0ODc3MjA3NjUwMzQ0.XpGadQ.7V64GDabo7uCSpEvvgsGWWM6tHA';
